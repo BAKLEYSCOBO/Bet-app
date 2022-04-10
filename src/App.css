@@ -1,0 +1,79 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.nav-color{
+  background-color: #005699;
+  background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
+  height: 70px;
+}
+h2{
+  color: #fff;
+  font-size: small;
+}
+.row-1{
+  display: flex;
+  justify-content: space-around;
+}
+.row-1 .col-1{
+  position: relative;
+  right: 200px;
+}
+.row-1 .col-1 h2{
+  font-size: 20px;
+  color: green;
+}
+.image1{
+  width: 30%;
+  margin-left: 10px;
+}
+.form-control{
+  width: 100%;
+  margin-left: 20px;
+}
+.container .img{
+  width: 100%;
+}
+.content{
+  border: 1px solid green;
+}
+.btn-center{
+  width: 100%;
+  position: relative;
+  left: 10px;
+}
+.terms{
+  margin-left: 70px;
+  position: relative;
+  top: 5px;
+}
+.cont{
+  margin-top: 40px;
+}
+.wakala{
+  width: 100%;
+  display: flex;
+}
+h3{
+  font-size: 20px;
+  font-weight: 300;
+}
+.content-1{
+  display: flex;
+  justify-content: space-around;
+}
+.cont-1{
+  margin: auto;
+  padding: 50px 0;
+}
+.cont-1 span{
+  color: #FFD300;
+}
+.cont-1 h6{
+  color: #fff;
+}
+.btn-1{
+  margin-left: 20px;
+}
