@@ -1,6 +1,6 @@
-import React from 'react'
-import Center from "../image/center.jpg"
-import { Button } from 'react-bootstrap'
+import React from 'react';
+import Center from "../image/center.jpg";
+import { Button } from 'react-bootstrap';
 
 const centerbar = () => {
   return (
@@ -9,11 +9,11 @@ const centerbar = () => {
         <div className='form-center'>
             <h3>JOIN NOW</h3>
             <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="form-label">Mobile Number</label>
+                  <label htmlFor="exampleFormControlInput1" class="form-label">Mobile Number</label>
                  <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="mobile number" />
          </div>
          <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="form-label">Password</label>
+                  <label htmlFor="exampleFormControlInput1" class="form-label">Password</label>
                   <input type="password" class="form-control" id="inputPassword" />
          </div>
         </div>
